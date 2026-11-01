@@ -27,10 +27,8 @@ Thumbs.db
 # MEEP output
 *.h5
 
-# Generated outputs (regenerate with scripts)
+# Large binary outputs (regenerate with scripts)
 output/*.gds
-output/*.png
-03_results/plots/*.png
 
 # Jupyter
 .ipynb_checkpoints/

@@ -1,19 +1,15 @@
 # SI Test Chip — Signal Integrity Characterization Structures
 
-A complete signal integrity test chip design and simulation suite, built as a portfolio project demonstrating SI/PI engineering skills relevant to cryo-CMOS and superconducting interconnect characterization.
+An exploratory learning project to develop a deep understanding of signal integrity concepts — from CPW transmission line design and S-parameter extraction to eigenmode analysis and cryogenic skin effect physics. Built end-to-end with open-source tools: gdsfactory for GDS layout and MEEP for FDTD electromagnetic simulation.
 
-## Motivation
-
-This project targets the core competencies of a **Senior Signal Integrity / Power Integrity Engineer** working on cryo-CMOS for topological qubits:
-
-| Test Structure | SI Concept | Interview Relevance |
-|---|---|---|
-| CPW transmission lines (3 geometries) | Impedance characterization | Interconnect design |
-| Coupled CPW lines (3 separations) | NEXT/FEXT crosstalk | Loss, reflection, and crosstalk analysis |
-| Quarter-wave CPW resonator | Eigenmode analysis, Q-factor | Resonator design for quantum circuits |
-| Impedance discontinuity step | S-parameter extraction (S11) | Transition structure analysis |
-| TRL calibration standards | Measurement methodology | Test methodology best practices |
-| Skin depth analysis (300K vs 4K) | Cryogenic effects | Cryo-CMOS interconnect physics |
+| Test Structure | SI Concept Explored |
+|---|---|
+| CPW transmission lines (3 geometries) | Impedance characterization, conformal mapping |
+| Coupled CPW lines (3 separations) | NEXT/FEXT crosstalk mechanisms |
+| Quarter-wave CPW resonator | Eigenmode analysis, Q-factor extraction |
+| Impedance discontinuity step | S-parameter extraction (S11), reflection |
+| TRL calibration standards | Measurement methodology design |
+| Skin depth analysis (300K vs 4K) | Classical vs anomalous skin effect at cryo temps |
 
 ## Project Structure
 
